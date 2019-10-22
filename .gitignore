@@ -1,0 +1,5 @@
+.*.swp
+.#*
+
+/.repo
+/setup-env
