@@ -12,12 +12,13 @@ group are not automatically downloaded by repo.
     <remote name="yocto"       alias="origin"  fetch="git://git.yoctoproject.org" />
     <remote name="openavr"     alias="origin"  fetch="git://github.com/openavr" />
 
-    <project name="manifest-openavr-bbb"    path="."                remote="openavr"    groups="src"  revision="master" >
+    <project name="manifest-openavr-bbb"    path="."                remote="openavr"    groups="src"  revision="bbai/master" >
         <linkfile dest="setup-env" src="scripts/setup-env"/>
     </project>
 
     <project name="poky"                    path="oe/poky"          remote="yocto"      groups="oe"   revision="zeus"  />
     <project name="meta-openembedded"       path="oe/meta-oe"       remote="oe"         groups="oe"   revision="zeus"  />
+    <project name="meta-ti"                 path="oe/meta-ti"       remote="yocto"      groups="oe"   revision="zeus"  />
     <project name="meta-openavr"            path="oe/meta-openavr"  remote="openavr"    groups="oe"   revision="master" />
 
 </manifest>

@@ -1,8 +1,8 @@
-Repo Manifests for building Beagle Bone Black Dev Board Example
-===============================================================
+Repo Manifests for building Beagle Bone AI Dev Board Example
+============================================================
 
 This repository provides the glue for fetching all of the git repositories that
-are needed for building an image for the BeagleBoneBlack board.
+are needed for building an image for the BeagleBone AI board.
 
 Getting Started
 ---------------
@@ -24,15 +24,15 @@ Getting Started
     Create an empty directory to hold your working files:
 
         $ cd ${HOME}/${WORK_DIR}
-        $ mkdir yocto-bbb
-        $ cd yocto-bbb
+        $ mkdir yocto-bbai
+        $ cd yocto-bbai
 
-    **NOTE**: Use whatever you want for `${WORK_DIR}` and/or `yocto-bbb`, just
+    **NOTE**: Use whatever you want for `${WORK_DIR}` and/or `yocto-bbai`, just
     adjust what follows accordingly.
 
     Tell Repo where to find the manifest:
 
-        $ repo init -u git://github.com/openavr/manifest-openavr-bbb -b master
+        $ repo init -u git://github.com/openavr/manifest-openavr-bbb -b bbai/master
 
     A successful initialization will end with a message stating that Repo is
     initialized in your working directory. Your client directory should now

@@ -1,3 +1,4 @@
-meta-oe
-meta-openavr
 poky
+meta-oe
+meta-ti
+meta-openavr
